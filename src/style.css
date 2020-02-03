@@ -1,0 +1,29 @@
+.bienvenue {
+  font-family: monospace;
+  color: red;
+  text-align: center;
+}
+
+.generalGrid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  border: 2px solid black;
+  min-height: 200px;
+}
+.generalGrid > div {
+  display: grid;
+  min-height: 200px;
+  justify-content: center;
+  align-content: center;
+}
+.generalGrid > .cont1 {
+  border: 2px solid salmon;
+}
+.generalGrid > .cont2 {
+  border: 2px solid salmon;
+}
+.generalGrid > .cont3 {
+  border: 2px solid salmon;
+}
+
+/*# sourceMappingURL=style.css.map */
